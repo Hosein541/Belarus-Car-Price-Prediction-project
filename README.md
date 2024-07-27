@@ -5,26 +5,26 @@ The Belarus Car Price Prediction project aims to forecast the prices of cars in 
 ## Summary and Conclusion for Belarus Car Price Prediction Dataset
 In this project, our objective was to predict car prices in Belarus using a given dataset. The steps involved in the data preprocessing and model training are detailed below:
 
-Handling Missing Values:
+1. Handling Missing Values:
 
 Columns with missing values were filled using custom functions to ensure the distribution of the data remained intact. This step was crucial to maintain the integrity of the dataset.
-Reduction of Unique Values:
+2. Reduction of Unique Values
 
 The car_make column had a large number of unique values, which were reduced to simplify the model and improve performance.
-Removal of Outliers:
+3. Removal of Outliers:
 
 Outliers were identified and removed from the dataset to ensure that extreme values did not negatively impact the model’s performance.
-Data Visualization:
+4. Data Visualization:
 
 Comprehensive data visualizations were performed to gain insights into the data and understand patterns that could be leveraged for prediction. These visualizations helped in identifying relationships between different features and the target variable.
-Standardization and Label Encoding:
+5. Standardization and Label Encoding:
 
 Numerical features were standardized to ensure consistent scaling.
 Categorical features were label-encoded to convert them into a format suitable for the machine learning model.
-Model Training:
+6. Model Training:
 
 An XGBoost (XGB) model was trained on the preprocessed data. XGBoost was chosen for its efficiency and superior performance in handling structured data.
-Model Performance:
+7. Model Performance:
 
 The trained XGBoost model achieved an accuracy of 88%. This indicates that the model performs well in predicting car prices based on the given features.
 Conclusion

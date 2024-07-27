@@ -32,7 +32,9 @@ This project followed a structured approach to handle the Belarus car price pred
 
 This approach highlights the importance of meticulous data preprocessing, including handling missing values, reducing complexity, and removing outliers. The successful application of the XGBoost model demonstrates its suitability for similar regression tasks in structured datasets.
 
-Developed by Hosein Mohammadi
+*Developed by Hosein Mohammadi*
 GitHub : https://github.com/Hosein541
+
 LinkedIn : https://www.linkedin.com/in/hosein-mohammadi-979b8a2b2/
+
 Gmail : Huseinmohammadi83@gmail.com
